@@ -1,4 +1,5 @@
 import React from 'react'
+import avatar from '../../images/1.jpeg'
 
 export default function Hero(){
   return (
@@ -6,7 +7,7 @@ export default function Hero(){
       <div className="container">
         <div className="hero-card hero-layout-left">
           <div className="hero-photo-col">
-            <img src="/images/1.jpeg" alt="Sergio Otoniel Crocker - foto" className="hero-avatar hero-avatar-left" />
+            <img src={avatar} alt="Sergio Otoniel Crocker - foto" className="hero-avatar hero-avatar-left" />
           </div>
 
           <div className="hero-main-col">
